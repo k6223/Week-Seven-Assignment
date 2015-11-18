@@ -8,7 +8,7 @@
 # generation()
 # main()
 
-#Function populate
+#Function populate world
 #preconditions
 #   random is imported
 #   world is created as list
@@ -28,7 +28,7 @@ def populate(petri_dish, h=80, w=22):
 
 # Function display(world,h,w)
 # Preconditions
-#   world is populated
+#   world is populated now
 # Postcondition
 #   world is not changed
 
@@ -47,9 +47,9 @@ def display(world, h = 22, w = 80):
 
 # Function generation(world,h,w)
 # Preconditions
-#   world is populated
+#   world is populated now
 # Postconditions
-#   Returns new world
+#   Returns new world, hooray!
 
 
 def generation(petri_dish, h=22, w=80):
