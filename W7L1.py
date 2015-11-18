@@ -1,6 +1,6 @@
+# Kollin Schalhamer
 # Framework for Conway's game of life
-# Daniel Neumann
-# CIS 125 FA2104
+# CIS 125
 
 # Functions
 # populate()
@@ -78,6 +78,7 @@ def generation(petri_dish, h=22, w=80):
                     new_world[x][y] = 1
             #else:
                 #new_world[x][y] = 0
+            
             else: #(cell is alive)
                 if n < 2 or n > 3:
                     new_world[x][y] = 0
@@ -100,7 +101,7 @@ def main():
         display(world, height, width)
         key = input("Press q to quit, any other key to continue: ")
 
-    print("Goodbye")
+    print("Adios!")
 
 
 if __name__ == '__main__':
